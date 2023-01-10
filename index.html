@@ -8,14 +8,34 @@
     <link rel="shortcut icon" href="ico/pay_cash.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="estilos/stilo.css">
-   
+
+   <style>
+    p#welcome-message{
+        background-image: linear-gradient(to bottom, black ,red,blue,black);
+        color: aqua
+        
+    }
+   </style>
 
    
 </head>
 <body>
+    <p id="welcome-message" style="font-size: 800%; text-align: center; position: absolute; 
+    top: 50%; left: 50%; transform: translate(-50%, -50%);">Bem-vindo!</p>
+
+    <script>
+      // Obtém a mensagem de boas-vindas
+      var welcomeMessage = document.getElementById("welcome-message");
+  
+      // Faz a mensagem sumir após 3 segundos
+      setTimeout(function() {
+        welcomeMessage.style.display = "none";
+      }, 5000);
+    </script>
     <header id="r1">
         <nav id="nave1">
-            <a href="">Ferramentas</a>
+            <a href="#">Ferramentas</a>
+            <a id="pz" href="https://api.whatsapp.com/send?phone=5587981310915&text=Ol%C3%A1,+Tudo+bem?"></a>
             
     
         </nav>
@@ -35,11 +55,13 @@
         <main>
             <article>
                 <h1>
-                História do Mascote do Android
+                Nosa História...
             </h1>
             <p>
     
-                    Provavelmente você sabe que o sistema operacional <strong>Android</strong>, mantido pelo <strong>Google</strong> é um dos mais utilizados para 
+                    Provavelmente você já sabe que a <strong>Real Eletronica</strong> agora é <strong>Real Asistencia Tecnica</strong>, organizada
+                     por <strong>Genilson Alves</strong> e <strong>Jessica Gomes</strong> é uma das asistencia tecnica mas bem avaliada 
+                     de região, <br> <br> <br>
                     dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma
                      história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
     
