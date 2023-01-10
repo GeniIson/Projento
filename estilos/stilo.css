@@ -98,6 +98,18 @@ nav > a {
     transition-duration: 0.5s;
 
 }
+nav>a#feramenta-menu{
+    background-image: url(../imagens/pngwing-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    color: rgba(9, 255, 0, 0.048);
+    position: fixed;
+    top: 0%;
+   
+    padding: 25px;
+    border-radius: 30%;
+    outline: none;
+}
 nav > a:hover{
     background-color:rgb(59, 175, 24);
     color:rgb(255, 249, 255) ;
