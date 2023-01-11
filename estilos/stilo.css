@@ -4,13 +4,13 @@
     src: url('../fontes/idroid.otf');
 }
 :root{
-    --cor0: #0b0c0c3a;
+    --cor0: #fffffff6;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
     --cor3: #2fa866;
     --cor4: #ffffff2f;
     --cor5: #1c1f1d;
-    --cor55: rgba(0, 0, 0, 0.63);
+    --cor55: rgba(41, 36, 136, 0.87);
     --fonte-padrao: Arial, Helvetica, sans-serif;
     --fonte-destaque:'Bebas Neve', cursive;
     --fonte-android:'Android', cursive;
@@ -41,8 +41,8 @@ p{
   }
     header#baner-fix{
 
-        background-color: black;
-        background-image: url('../imagens/log-\ menor.jpeg');
+        background-color: rgb(0, 0, 0);
+        background-image: url('../imagens/logo-maior-modificad.png');
         color: white;
         background-position: center;
         background-size: contain;
@@ -98,18 +98,7 @@ nav > a {
     transition-duration: 0.5s;
 
 }
-nav>a#feramenta-menu{
-    background-image: url(../imagens/pngwing-img.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    color: rgba(9, 255, 0, 0.048);
-    position: fixed;
-    top: 0%;
-   
-    padding: 25px;
-    border-radius: 30%;
-    outline: none;
-}
+
 nav > a:hover{
     background-color:rgb(59, 175, 24);
     color:rgb(255, 249, 255) ;
@@ -130,18 +119,50 @@ nav#nave1>a{
    
 }
 nav > a#pz {
-    font-size: 50%;
-    background-image: url('../imagens/logo-whatsapp-preta.png');
-    background-size: contain;
+    background-color: rgba(240, 238, 238, 0.308);
+    background-size:auto ;
     background-repeat: no-repeat;
-    color: rgba(9, 255, 0, 0.048);
+    color:var(--cor55);
     position: fixed;
-    top: 30%;
-    right: 0%;
-    padding: 35px;
-    border-radius: 30%;
+    bottom:  20%;
+    right: 2%;
+    
+  
     outline: none;
   }
+
+  nav>a img {
+     margin: 0px;
+    max-width: 15px;
+    max-height: 50px;
+    /* ...outras propriedades... */
+}
+  nav > a#f {
+  
+
+    background-color: rgba(240, 238, 238, 0.308);
+    background-size:auto ;
+    background-repeat: no-repeat;
+    color:var(--cor55);
+    position: fixed;
+    bottom:  10%;
+    right: 1%;
+    
+   
+   
+    outline: none;
+    
+    
+  }
+  nav > a#f:hover{
+    background-color:rgb(223, 129, 7);
+    color:rgb(255, 249, 255) ;
+}
+
+nav > a#pz:hover{
+  background-color:rgb(59, 175, 24);
+  color:rgb(255, 249, 255) ;
+}
 
 
 main{
