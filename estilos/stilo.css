@@ -4,7 +4,7 @@
     src: url('../fontes/idroid.otf');
 }
 :root{
-    --cor0: #7fffd446;
+    --cor0: #0b0c0c3a;
     --cor1: #83e1ad;
     --cor2: #3ddc84;
     --cor3: #2fa866;
@@ -46,9 +46,8 @@ p{
         color: white;
         background-position: center;
         background-size: contain;
-        
-       
-           
+              
+          
         padding-top:200px;
         border: 1px dashed black;
         
@@ -89,8 +88,9 @@ nav#nave2{
    
 }
 
+
 nav > a {
-    color: red ;
+    color: rgb(255, 255, 255) ;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -122,7 +122,7 @@ nav#nave1{
     position: fixed;
     top: 0%;
     width: 100%;
-    z-index: 9999; /* valor alto para que o elemento fique sempre na frente */   
+    z-index: 9998; /* valor alto para que o elemento fique sempre na frente */   
    
 }
 nav#nave1>a{
